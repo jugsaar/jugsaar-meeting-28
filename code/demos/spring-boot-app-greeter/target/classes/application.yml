@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greeting-service-slow
+  profiles:
+    active: default,${app_env:dev}
+
+security:
+  user:
+    name: test
+    password: test
+
+server:
+  port: 7777

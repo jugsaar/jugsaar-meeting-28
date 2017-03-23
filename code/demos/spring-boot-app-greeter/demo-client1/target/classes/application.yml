@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo-client-1
+  profiles:
+    active: default,${app_env:dev}
+
+server:
+  port: 7778
+
+security:
+  basic:
+    enabled: false
